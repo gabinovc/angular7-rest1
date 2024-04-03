@@ -1,0 +1,15 @@
+<nav id="navigation" role="navigation">
+  <div class="pts pbs line" id="container">
+    <div class="adjustments">
+      <div id="AdjustContrast" title="Contrast" (mouseup)="adjustContrast(contrastRangeSlider.value)">
+        <div class="sliderContainer">
+          <span class="adjustment_name">Contrast</span>
+          <input type="range" min="-100" max="100" value="0" class="slider" id="contrastRangeSlider" #contrastRangeSlider>
+        </div>
+      </div>
+      <div id="btn_CloseDocument">
+        <button class="button" (click)="closeDocument()">Close Document</button>
+      </div>
+    </div>
+  </div>
+</nav>
