@@ -43,7 +43,7 @@ namespace DocuViewareREST.Controllers
                 docuVieware.EnableMultipleThumbnailSelection = controlConfiguration.EnableMultipleThumbnailSelection;
                 docuVieware.EnableMouseModeButtons = controlConfiguration.EnableMouseModeButtons;
                 docuVieware.EnableFormFieldsEdition = controlConfiguration.EnableFormFieldsEdition;
-                docuVieware.EnableTwainAcquisitionButton = controlConfiguration.EnableTwainAcquisitionButton;
+                docuVieware.EnableTwainAcquisitionButton = true;
                 
                 docuVieware.MaxUploadSize = 36700160; // 35MB
 
